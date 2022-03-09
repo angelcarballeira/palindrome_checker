@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eee;
+
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 500px;
+  height: 300px;
+  margin-top: 70px;
+  padding: 15px;
+  border-radius: 7px;
+}
+
+.form-control {
+  display: flex;
+  justify-content: center;
+  line-height: 150px;
+  flex-direction: column;
+}
+
+button {
+  width: 50px;
+}
+
+span {
+  font-size: 25px;
+}
+
+label {
+  padding-left: 10px;
+  font-size: 18px;
+  letter-spacing: 0.7px;
+}
+
+p {
+  font-size: 18px;
+  letter-spacing: 0.7px;
+}
